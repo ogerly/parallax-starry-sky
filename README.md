@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/c7b1e3ad-7f79-4cb0-9b5c-7cd43473cb2c
+
 # parallax-starry-sky
 A responsive parallax scrolling effect with a starry sky background, including interactive elements and zoom controls. Ideal for demonstrating parallax effects and interactive UI components.
 
