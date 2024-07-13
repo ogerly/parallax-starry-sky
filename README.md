@@ -161,4 +161,27 @@ Navigation is facilitated through sliders for horizontal and vertical movement a
 - **GitHub Repository**: [Parallax Starry Sky](https://github.com/ogerly/parallax-starry-sky)
 - **Live Demo on CodePen**: [Parallax Starry Sky Demo](https://codepen.io/ogerly/pen/yLdNvWv)
 
-This explanation provides a comprehensive understanding of the technical aspects and the implementation of the Parallax Starry Sky Project, making it easier for developers to comprehend and build upon.
+________________
+
+
+## File List and Explanations
+
+1. index.html
+Purpose: The main HTML file that structures the webpage.
+Contains the HTML elements for the parallax layers, interactive points, and control sliders/buttons.
+
+2. styles.css
+Purpose: Defines the visual styles for the parallax layers, points, and general layout.
+Includes styles for the body, parallax layers, background images, points, and cards.
+
+3. controls.css
+Purpose: Contains the styles specifically for the control elements.
+Includes styles for the control panel, position info, sliders, and zoom buttons.
+
+4. script.js
+Purpose: Manages the main functionality of the parallax effect and interactive elements.
+Handles the parallax scrolling effect, card display on point click, and updating transformations.
+
+5. controls.js
+Purpose: Handles the control elements for navigating and zooming.
+Manages the sliders for horizontal and vertical movement, and buttons for zooming in and out.
