@@ -185,3 +185,25 @@ Handles the parallax scrolling effect, card display on point click, and updating
 5. controls.js
 Purpose: Handles the control elements for navigating and zooming.
 Manages the sliders for horizontal and vertical movement, and buttons for zooming in and out.
+
+
+## Functions: 
+
+## Functions List
+
+| Function Name          | File        | Description                                                                                           |
+|------------------------|-------------|-------------------------------------------------------------------------------------------------------|
+| `setTransform`         | script.js   | Updates the transformation properties (scale, translateX, translateY) of the parallax layers and interactive elements. |
+| `updatePositionInfo`   | script.js   | Updates the on-screen display with the current position and zoom level.                               |
+| `document.addEventListener('touchstart', function(e))` | script.js | Captures the starting position for touch events and sets dragging to true. |
+| `document.addEventListener('touchmove', function(e))` | script.js | Calculates the change in position during touch events and updates the transformation. |
+| `document.addEventListener('touchend', function())` | script.js | Sets dragging to false when the touch ends. |
+| `document.addEventListener('mousedown', function(e))` | script.js | Captures the starting position for mouse events and sets dragging to true. |
+| `document.addEventListener('mousemove', function(e))` | script.js | Calculates the change in position during mouse events and updates the transformation. |
+| `document.addEventListener('mouseup', function())` | script.js | Sets dragging to false when the mouse button is released. |
+| `document.addEventListener('mouseleave', function())` | script.js | Sets dragging to false when the mouse leaves the window. |
+| `document.addEventListener('wheel', function(e))` | script.js & controls.js | Adjusts the scale property based on the wheel event to zoom in or out. |
+| `document.addEventListener('DOMContentLoaded', function())` | script.js | Initializes the points and attaches click event listeners to them for displaying cards. |
+| `document.getElementById('horizontal-slider').addEventListener('input', function(e))` | controls.js | Updates the horizontal translation based on the slider input value. |
+| `document.getElementById('vertical-slider').addEventListener('input', function(e))` | controls.js | Updates the vertical translation based on the slider input value. |
+| `document.querySelectorAll('.zoom-button').forEach(button => button.addEventListener('click', function(e)))` | controls.js | Sets the scale property based on the zoom button clicked. |
