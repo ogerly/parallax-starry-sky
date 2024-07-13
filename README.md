@@ -14,7 +14,7 @@ A responsive parallax scrolling effect with a starry sky background, including i
 
 ## Demo
 
-Check out the live demo on [CodePen](https://codepen.io/yourusername/pen/yourcodepenid).
+Check out the live demo on [CodePen](https://codepen.io/ogerly/pen/yLdNvWv).
 
 ## Installation
 
